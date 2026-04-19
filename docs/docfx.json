@@ -1,0 +1,19 @@
+{
+  "metadata": [
+    {
+      "src": [{ "files": ["src/**/*.csproj"] }],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      { "files": ["api/**.yml", "api/index.md"] },
+      { "files": ["*.md"] }
+    ],
+    "dest": "_site",
+    "globalMetadata": {
+      "_appTitle": "Hello World Docs",
+      "_enableSearch": true
+    }
+  }
+}

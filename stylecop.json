@@ -1,0 +1,18 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DotNetAnalyzers/StyleCopAnalyzers/master/StyleCop.Analyzers/StyleCop.Analyzers/Settings/stylecop.schema.json",
+  "settings": {
+    "documentationRules": {
+      "companyName": "Hero",
+      "copyrightText": "Copyright (c) Hero. All rights reserved.",
+      "documentPublicElements": true,
+      "documentInternalElements": false,
+      "documentPrivateElements": false,
+      "documentProtectedElements": false
+    }
+  },
+  "rules": {
+    "SA1638": {
+      "action": "None"
+    }
+  }
+}
